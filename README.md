@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://www.frontendmentor.io/solutions/advice-app-with-api-and-responsive-layout-tnD03gx4zd)
-- Live Site URL:(https://rickhalmoguera.github.io/Advice-generator-app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/advice-app-with-api-and-responsive-layout-tnD03gx4zd)
+- [Live Site URL](https://rickhalmoguera.github.io/Advice-generator-app/)
 
 ## My process
 
