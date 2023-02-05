@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap');
+
+$ff-main: 'Manrope', sans-serif;
+
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue:hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background: $darkBlue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: $ff-main;
+    padding: 2em;
+}
+
+main{
+    position: relative;
+    background: $darkGrayishBlue;
+    min-width: 343px;
+    max-width: 540px;
+    min-height: 347px;
+    padding: 1em;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: .5fr 2fr .5fr;
+    text-align: center;
+    align-items: center;
+
+    .advice-number-container{
+        color: $neonGreen;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        
+    }
+
+    .advice-text-container{
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: $lightCyan;
+    }
+
+    .divider-container{
+        margin-bottom: 2em;
+    }
+    .btn-container{
+        cursor: pointer;
+        background: $neonGreen;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+
+        img{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
