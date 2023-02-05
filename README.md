@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot.png)
+![](./images/screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://www.frontendmentor.io/solutions/advice-app-with-api-and-responsive-layout-tnD03gx4zd)
+- Live Site URL:(https://rickhalmoguera.github.io/Advice-generator-app/)
 
 ## My process
 
