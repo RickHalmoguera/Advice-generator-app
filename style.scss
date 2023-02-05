@@ -65,6 +65,10 @@ main{
         top: 100%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+
+        &:hover{
+            filter: drop-shadow(3px 3px 15px $neonGreen);
+        }
         
 
         img{
